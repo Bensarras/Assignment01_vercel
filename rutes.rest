@@ -1,0 +1,58 @@
+POST http://localhost:8081/api/user/signup HTTP/1.1
+Content-Type: application/json
+
+{
+
+    "email": "tumamaahorasi@gmail.com",
+    "username": "p@p.com",
+    "password": "password$123"  
+
+}
+
+
+###
+GET http://localhost:8081/ HTTP/1.1
+
+###
+POST http://localhost:8081/api/emp/employees HTTP/1.1
+Content-Type: application/json
+
+{
+
+    "email": "tumaasasma@gmail.com",
+    "firstName": "usernametumama",
+    "lastName": "passwordtumama",
+    "gender":"Male",
+    "salary": "1200"
+
+
+}
+
+
+###
+GET http://localhost:8081/api/emp/employees HTTP/1.1
+
+
+###
+
+POST http://localhost:8081/api/user/login HTTP/1.1
+Content-Type: application/json
+    
+    {
+    
+        "username": "p@p.com",
+        "password": "password$123"
+
+    }
+
+# “first_name”: “Tam”,
+# “last_name”: ”Harrow”,
+# “email: : tam@hollywood.com,
+# “gender”: “Male”,
+# “salary”: 125500.00
+# 63508bc301767553214837e7
+# }
+
+
+###
+GET http://localhost:8081/api/emp/employees/63508bc301767553214837e7 HTTP/1.1
