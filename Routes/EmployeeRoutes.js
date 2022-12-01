@@ -1,5 +1,5 @@
 const express = require('express')
-const EmployeeModel = require('../modules/EmployeeModel');
+const EmployeeModel = require('../Modules/EmployeeModel');
 const router = express.Router()
 
 //Create a new employee

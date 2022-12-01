@@ -1,6 +1,6 @@
 const { response } = require('express');
 const express = require('express')
-const AccountModel = require('../modules/AccountModel');
+const AccountModel = require('../Modules/AccountModel');
 const router = express.Router()
 
 
